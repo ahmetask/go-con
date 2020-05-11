@@ -11,17 +11,17 @@ You need [golang 1.13](https://golang.org/dl/) to use go-con.
  go get github.com/ahmetask/go-con
 ```
 ## Example 
-[Tutorial]()
+[Tutorial](WIP)
 
-[Server]()
+[Server](https://github.com/ahmetask/go-con-ui)
 
-[Client]()
+[Client](https://github.com/ahmetask/go-con-client-example)
 
-[Client-2]()
+[Client-2](https://github.com/ahmetask/go-con-client-example-2)
 
-[UI Helper(Connects UI with Server)]()
+[UI Helper(Connects UI with Server)](https://github.com/ahmetask/go-con-manager)
 
-[UI (Simple React Project that control Server)]()
+[UI (Simple React Project that control Server)](https://github.com/ahmetask/go-con-ui)
 
 
 ## Usage
