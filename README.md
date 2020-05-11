@@ -13,7 +13,7 @@ You need [golang 1.13](https://golang.org/dl/) to use go-con.
 ## Example 
 [Tutorial](WIP)
 
-[Server](https://github.com/ahmetask/go-con-ui)
+[Server](https://github.com/ahmetask/go-con-server-example)
 
 [Client](https://github.com/ahmetask/go-con-client-example)
 
