@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package config;
+option go_package = "gocon";
+
+message GetConfigRequest {
+  string appName = 1;
+}
+
+message GetConfigResponse {
+  bytes value = 1;
+  bool success = 2;
+}
+
+message SaveConfigRequest {
+  string appName = 1;
+  string namespace = 2;
+  string port = 3;
+  bytes content = 4;
+}
+
+message RefreshCfgRequest {
+  string appName = 1;
+}
+
+message RefreshCfgsRequest {
+}
+
+message SuccessResponse {
+  bool success = 1;
+}
+
+service config {
+  rpc GetConfig (GetConfigRequest) returns (GetConfigResponse) {};
+  rpc SaveConfig (SaveConfigRequest) returns (SuccessResponse) {};
+  rpc RefreshCfg (RefreshCfgRequest) returns (SuccessResponse) {};
+  rpc RefreshCfgs (RefreshCfgsRequest) returns (SuccessResponse) {};
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package client;
+option go_package = "gocon";
+
+message RefreshConfigRequest {
+  string appName = 1;
+  bytes config = 2;
+}
+
+message RefreshConfigResponse {
+  bool success = 1;
+}
+
+service configC {
+  rpc ChangeConfig (RefreshConfigRequest) returns (RefreshConfigResponse) {};
+}
