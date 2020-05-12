@@ -79,7 +79,7 @@ panic(err)
 
 - if you use another programing languages use proto files to interract go-con server
 
-- How to get the updated config? (See [Client]())
+- How to get the updated config? (See [Client](https://github.com/ahmetask/go-con-client-example/blob/master/main.go#L35))
 
 ```go
 type Config struct {
