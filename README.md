@@ -11,7 +11,7 @@ You need [golang 1.13](https://golang.org/dl/) to use go-con.
  go get github.com/ahmetask/go-con
 ```
 ## Example 
-[Tutorial](WIP)
+[Tutorial](https://medium.com/@ahmet9417/golang-config-server-as-a-service-3655bf832c2d)
 
 [Server](https://github.com/ahmetask/go-con-server-example)
 
